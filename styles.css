@@ -1,0 +1,43 @@
+body {
+  background-color: cadetblue;
+  padding: 2em;
+}
+
+section {
+  align-items: center;
+  text-align: center;
+  border: solid 0.2rem black;
+  border-radius: 1rem;
+  margin: 2em;
+  background-color: antiquewhite;
+}
+
+#resultsGallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  row-gap: 1rem;
+  padding: 1rem;
+}
+
+img {
+  width: 70%;
+  aspect-ratio: 0.75;
+  border: solid 0.2rem black;
+  border-radius: 1rem;
+}
+
+video {
+  width: 20rem;
+  border: solid 1px black;
+  border-radius: 1rem;
+}
+
+header {
+  text-align: center;
+  width: 100%;
+  border: solid 0.2rem black;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  background-color: antiquewhite;
+}
